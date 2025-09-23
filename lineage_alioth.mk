@@ -17,7 +17,8 @@ TARGET_INCLUDES_MIUI_CAMERA := true
 
 TARGET_OPTIMIZED_DEXOPT := true
 WITH_GMS := true
-TARGET_USES_OMNI_GAPPS :=true
+TARGET_USES_OMNI_GAPPS := true
+LUNARIS_BUILD_TYPE := OFFICIAL
 
 # Inherit from alioth device
 $(call inherit-product, device/xiaomi/alioth/device.mk)
