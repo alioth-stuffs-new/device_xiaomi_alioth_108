@@ -15,7 +15,6 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 TARGET_USES_MIUI_CAMERA := true
 TARGET_INCLUDES_MIUI_CAMERA := true
 
-TARGET_OPTIMIZED_DEXOPT := true
 # Include Gapps
 WITH_GMS := true
 TARGET_USES_PICO_GAPPS := true
