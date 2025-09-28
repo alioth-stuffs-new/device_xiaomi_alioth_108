@@ -17,8 +17,7 @@ TARGET_INCLUDES_MIUI_CAMERA := true
 
 # Include Gapps
 WITH_GMS := true
-TARGET_USES_PICO_GAPPS := true
-EVO_BUILD_TYPE := Fan-Edition
+TARGET_USES_MINI_GAPPS := true
 
 # Inherit from alioth device
 $(call inherit-product, device/xiaomi/alioth/device.mk)
