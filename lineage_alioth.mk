@@ -20,6 +20,7 @@ WITH_GMS := true
 TARGET_USES_OMNI_GAPPS := true
 TARGET_INCLUDE_PHOTOS := true
 LUNARIS_BUILD_TYPE := OFFICIAL
+TARGET_SUPPORTS_GOOGLE_DIALER := false
 
 # Inherit from alioth device
 $(call inherit-product, device/xiaomi/alioth/device.mk)
